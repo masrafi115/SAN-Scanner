@@ -34,7 +34,7 @@ jobs:
         uses: gradle/actions/setup-gradle@v3
 
       - name: Validate and build
-        run: ./gradlew build
+        run: gradle build
 
       - name: Upload JAR
         uses: actions/upload-artifact@v4
